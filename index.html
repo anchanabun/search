@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style>
+            .menu {
+                color: black;
+                padding-left: 10px;
+            }
+            .button-submit {
+                border: none; 
+                padding: 5px; 
+                width: 150px;
+            }
+            .search-box {
+                border-radius: 10px; 
+                width: 500px; 
+                height: 44px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: right; margin: 20px;">
+            <a class="menu" href="image_search.html">Google Image Search</a>
+            <a class="menu" href="advanced_search.html">Google Advanced Search</a>
+        </div>
+        <div style="text-align: center; margin: 200px; width: auto;">
+            <form action="https://google.com/search" style="width: auto;">
+                <div>
+                    <input class="search-box"  type="text" name="q">
+                </div>
+                <div style="margin: 20px;">
+                    <button type="submit" class="button-submit">Google Search</button>
+                    <button type="submit" class="button-submit" formaction="https://www.google.com/doodles/">I’m Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

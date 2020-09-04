@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style>
+            .menu {
+                color: black;
+                padding-left: 10px;
+            }
+            .button-submit {
+                border: none; 
+                padding: 5px; 
+                width: 150px;
+            }
+            .search-box {
+                border-radius: 10px; 
+                width: 500px; 
+                height: 44px;
+            }
+            .font-adv {
+                font-size: 14px;
+            }
+            .label-adv {
+                width: 16%;
+                height: 42px;
+            }
+            .input-adv {
+                width: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: right; margin: 20px;">
+            <a class="menu" href="search.html">Go Back</a>
+        </div>
+        <div style="text-align: left; margin: 100px;">
+            <form action="https://google.com/search">
+                <div class="row">
+                    <div class="col-4 font-adv label-adv">
+                        <p>all these words:</p>
+                    </div>
+                    <div class="col-8">
+                        <input class="input-adv" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 font-adv label-adv">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div class="col-8">
+                        <input class="input-adv" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 font-adv label-adv">
+                        <p>any of these words:</p>
+                    </div>
+                    <div class="col-8">
+                        <input class="input-adv" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 font-adv label-adv">
+                        <p>none of these words:</p>
+                    </div>
+                    <div class="col-8">
+                        <input class="input-adv" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-4 col-4">
+                        <button style="background-color:royalblue; color: white; border: none; padding: 5px; width: 150px;" type="submit">Advanced Search</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
